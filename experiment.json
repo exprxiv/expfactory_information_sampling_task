@@ -1,0 +1,12 @@
+{
+    "name": "expfactory_information_sampling_task",
+    "alt_name": "Information Sampling Task (ISI)",
+    "description": "'On each trial, subjects were presented with a 5 u00d7 5 matrix of grey boxes, with two larger colored panels at the foot of the screen. Touching a grey box caused the box to open (immediately) to reveal one of the two colors. The task was to decide the box color in the majority on the board. Opened boxes remained open for the duration of the trial. Subjects were able to open the boxes at their own rate, and the instructions emphasized that the subject could open as many boxes as they wished before making their decision. Upon touching one of the colored panels, the remaining boxes were uncovered and a feedback message 'Correct! You have won [x] points' or 'Wrong! You have lost 100 points' was presented for 2 sec. There was a variable delay of at least 1 sec before the onset of the next trial, to establish a minimum intertrial interval of 30 sec. This feature was inserted to counteract delay-averse responding. During this delay, the current points total was presented centrally. Subjects completed 10 trials in each of two conditions, with condition order counterbalanced across subjects. In the FW condition, the subject won or lost 100 points on each trial, irrespective of the number of boxes opened. In the DW condition, the available win decreased from 250 points in 10 point steps with every box opened (e.g., responding correctly after opening 12 boxes would yield 130 points). In the DW condition, an incorrect decision lost 100 points, regardless of the boxes opened.'",
+    "version": "1.0.1",
+    "repository": {"type": "git", "url": "https://github.com/exprxiv/expfactory_information_sampling_task.git"},
+    "contributors": ["Jamie Li", "Ian Eisenberg", "Zeynep Enkavi", "Patrick Bissett", "Vanessa Sochat", "Teon L Brooks", "Russell Poldrack"],
+    "duration": "12",
+    "engine": {"front-end": "jspsych"},
+    "ontology": [ {"convention": "Cognitive Atlas", "term": "trm_50f73d557c967"} ],
+    "reference": "http://www.sciencedirect.com/science/article/pii/S0006322305013971"
+}
